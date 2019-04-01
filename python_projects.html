@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title class ="title">Edgar Joseph DeGuzman</title>
+	<meta charset = "utf-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale = 1">
+	<style>
+	* {
+		box-sizing: border-box;
+	}
+	body {
+		font-family: monospace;
+		margin: 0;
+	}
+	.container {
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	header {
+		background-image: linear-gradient(black,black);
+		padding: 30px;
+		font-size: 19px;
+		color: white;
+		opacity: 0.8;
+	}
+	header::after {
+		content = ""
+		display: table;
+		clear: both;
+	}
+	nav  {
+	float: center;
+	}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	nav li {
+		display: inline-block;
+		margin-left: 100px;
+		color: white;
+	}
+	nav a {
+		color: white;
+		text-decoration: none;
+		text-transform: uppercase;
+		border-style: solid;
+		border-color: white;
+	}
+	nav a:hover {
+		color: #000;
+	}
+	.circle {
+		display: block;
+		margin: 0 auto;
+		border-left: 100px solid black;
+		border-top: 60px solid transparent;
+		border-bottom: 60px solid transparent;
+		margin-left: 0px;
+		margin-bottom: -50px;
+		position: relative; left: 30%; bottom: 50%;
+		height: 450px;
+		width: 550px;
+		background-color: black;
+		border-radius: 50%;
+		text-align: left;
+		color: white;
+
+	}
+	
+	footer {
+		padding: 30px;
+		color: white;
+		text-align: center;
+		position: bottom;
+	}
+	button {
+		color: white;
+		text-decoration: none;
+		text-transform: uppercase;
+		border-style: solid;
+		border-color: white;
+		background-color: black;
+		padding: 15px;
+	}
+	button:hover {
+		color: #000;
+	}
+	section {
+		color: white;
+		text-decoration: none;
+		text-transform: uppercase;
+		border-style: solid;
+		border-color: black;
+		background-color: black;
+		opacity: 0.8;
+		padding: 20px;
+		height: 200px;
+	}
+	section a {
+		color: white;
+		text-decoration: none;
+		text-transform: uppercase;
+		border-style: solid;
+		border-color: white;
+		font-size: 15px;
+		text-align: left;
+		padding: 5px;
+	}
+	section a:hover {
+		color: #000;
+	}
+	.span1 {
+		display: inline-block;
+		margin: 10 auto;
+		margin-left: 145px;
+		margin-right: 147px;
+		text-align: left;
+		font-size: 15px;
+		word-wrap: break-word;
+	}
+	.span2 {
+		display: inline-block;
+		margin: 10 auto;
+		margin-left: 140px;
+		margin-right: 145px;
+		text-align: left;
+		font-size: 15px;
+	}
+	.span3 {
+		display: inline-block;
+		margin: 10 auto;
+		margin-left: 120px;
+		margin-right: 145px;
+		text-align: left;
+		font-size: 15px;
+	}
+	.span4 {
+		display: inline-block;
+		margin: 10 auto;
+		margin-left: 110px;
+		margin-right: 145px;
+		text-align: left;
+		font-size: 15px;
+	}
+	</style>
+	
+}
+</head>
+<body background = "index-background.jpg">
+	<header>
+		<div class = "container">
+			<nav>
+				<ul>
+					<li><a href = "portfolio_index.html">Home</a>
+						<a href = "portfolio.about.me.html">Learn About Me</a>
+						<a href = "portfolio.codingprojects.html">Coding Projects</a>
+						<a href = "DeGuzmanResume_2019.pdf" view = "DeGuzmanResume_2019.pdf">Resume</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<br>
+	<button onclick = "goBack()">Go Back to Coding Projects</button>
+
+	<script>
+		function goBack() {
+			window.history.back();
+		}
+	</script>
+	<br>
+	<br>
+	<section>
+		<h2>Python Projects</h2>
+		<br>
+		<nav>
+			<ul>
+				<li>
+					<a href = "book_keeping.pdf" view = "book_keeping.pdf">Book Keeping Application</a>
+					<a href = "tipcalculator.pdf" view = "tipcalculator.pdf">Tip Calculator</a>	
+				</li>
+			</ul>
+		</nav>
+	</section>
+
+</body>
+
+</html>
+
+
